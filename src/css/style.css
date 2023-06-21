@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffe2b0;
+}
+
+header {
+    text-align: center;
+}
+
+.nav__punkts {
+    list-style: none;
+    padding: 0px;
+}
+
+.nav__punkt {
+    display: inline;
+}
+
+.nav__punkt:not(:last-child) {
+    margin-right: 100px;
+}
+
+.nav__punkt_link {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 0px;
+}
+
+.section-about {
+    height: 640px;
+    background: url(../img/01-Картинка-фона.jpg) center/cover no-repeat;
+    position: relative;
+}
+
+.section-about__block {
+    width: 420px;
+    height: 190px;
+    background: linear-gradient(180deg, rgba(244, 213, 178, 0.8) 0%, rgba(234, 156, 65, 0.8) 100%);
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.section-about__border {
+    width: 390px;
+    height: 160px;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 17px 0 0 28px;
+    text-align: left;
+}
+
+.section-about__tittle {
+    margin: 0px;
+    margin-bottom: 9px;
+    font-size: 36px;
+}
+
+.section-about__text {
+    margin: 0px;
+    font-size: 12px;
+}
